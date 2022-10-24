@@ -1,0 +1,6 @@
+Tipe Data Column
+1. Error Tipe Data time.Time
+    -kita bisa meminta Driver MySQL untuk Golang secara otomatis melakukan parsing dengan menambahkan parameter parseDate=true
+2. Error Tipe Data NULL
+    - kita bisa menggunakan tipe data dari package sql/database
+    - var email sql.NullString
